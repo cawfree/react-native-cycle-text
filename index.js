@@ -124,7 +124,6 @@ class TextCycler extends React.Component {
       disabled,
       onPress,
       messageStyle,
-      linkStyle,
     } = this.props;
     const {
       animOpacity,
@@ -162,7 +161,6 @@ TextCycler.propTypes = {
   disabled: PropTypes.bool,
   onPress: PropTypes.func,
   messageStyle: PropTypes.shape({}).isRequired,
-  linkStyle: PropTypes.shape({}).isRequired,
 };
 
 TextCycler.defaultProps = {
@@ -172,7 +170,6 @@ TextCycler.defaultProps = {
   disabled: false,
   onPress: e => null,
   messageStyle: styles.messageStyle,
-  linkStyle: {},
 };
 
 export default TextCycler;
