@@ -1,0 +1,13 @@
+{
+  "name": "@cawfree/react-native-cycle-text",
+  "version": "1.0.0",
+  "description": "A simple React Native component which lets you randomly cycle through an array of text Strings.",
+  "main": "index.js",
+  "repository": "https://github.com/cawfree/react-native-cycle-text",
+  "author": "@cawfree <hello@cawfree.com>",
+  "license": "MIT",
+  "private": false,
+  "peerDependencies": {
+    "react-native-hyperlink": "^0.0.14"
+  }
+}
